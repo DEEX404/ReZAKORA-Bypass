@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rezakora-bypass"
+version = "1.0.0"
+description = "Fast reCAPTCHA solver using Patchright (undetected Playwright) and Google Speech API - Beta Version"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "patchright>=1.48.0",
+    "pydub>=0.25.1",
+    "SpeechRecognition>=3.10.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/DEEX404/ReZAKORA-Bypass"

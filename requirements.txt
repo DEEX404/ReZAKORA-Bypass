@@ -1,0 +1,15 @@
+# ReZAKORA-Bypass Dependencies
+
+# Browser automation (undetected Playwright)
+patchright>=1.48.0
+
+# Audio processing
+pydub>=0.25.1
+
+# Speech recognition
+SpeechRecognition>=3.10.0
+
+# Note: ffmpeg must be installed separately for pydub to work
+# Windows: Download from https://ffmpeg.org/download.html
+# Linux: sudo apt-get install ffmpeg
+# Mac: brew install ffmpeg
